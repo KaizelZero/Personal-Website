@@ -42,7 +42,7 @@ const displayDate = dayjs(updatedDate).format("ll");
 							custom_link && (
 								<a
 									class="btn btn-outline grow md:grow-0 ml-4"
-									href={"/Personal/" + custom_link}
+									href={custom_link}
 									target="_blank"
 								>
 									{custom_link_label}
@@ -51,7 +51,7 @@ const displayDate = dayjs(updatedDate).format("ll");
 						}
 						<a
 							class="btn btn-primary grow md:grow-0 ml-4"
-							href={"/Personal/" + checkoutUrl}
+							href={checkoutUrl}
 							target="_blank">Buy Now</a
 						>
 					</div>
