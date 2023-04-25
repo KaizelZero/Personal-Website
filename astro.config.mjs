@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "jqt-designs.github.io",
+	site: "https://jqt-designs.github.io",
 	base: "/personal",
 	integrations: [mdx(), sitemap(), tailwind()],
 });
