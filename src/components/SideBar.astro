@@ -146,7 +146,7 @@
 	const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
 	pages.forEach((elem) => {
-		if (url.includes(elem.id)) {
+		if (url.includes(elem!.id)) {
 			isHome = false;
 			elem?.classList.add(activeClass);
 		}
